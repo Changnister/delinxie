@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Peter Zhang | About</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="Images/pz-labcoat.jpg" />
+    <link rel="stylesheet" href="CSS/WebCSS.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Logo.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Peter Zhang works at the intersection of healthcare, AI, and entrepreneurship. Pharmacist, researcher, and writer affiliated with Southlake Health and the University of Toronto."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://peterczhang.com/about.html" />
+
+    <meta property="og:title" content="Peter Zhang | About" />
+    <meta
+      property="og:description"
+      content="Peter Zhang works at the intersection of healthcare, AI, and entrepreneurship. Pharmacist, researcher, and writer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://peterczhang.com/about.html" />
+    <meta property="og:site_name" content="Peter Zhang" />
+    <meta
+      property="og:image"
+      content="https://peterczhang.com/Images/facesofpharmsci.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Peter Zhang | About" />
+    <meta
+      name="twitter:description"
+      content="Peter Zhang works at the intersection of healthcare, AI, and entrepreneurship. Pharmacist, researcher, and writer."
+    />
+    <meta
+      name="twitter:image"
+      content="https://peterczhang.com/Images/facesofpharmsci.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Peter Zhang — pharmacist, researcher, and writer at the intersection of healthcare, AI, and entrepreneurship."
+    />
+    <link rel="alternate" href="https://peterczhang.com/about.html" hreflang="en-us" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Peter Zhang",
+        "alternateName": ["Peter Chengming Zhang", "P.C. Zhang"],
+        "url": "https://peterczhang.com/",
+        "image": "https://peterczhang.com/Images/facesofpharmsci.jpg",
+        "description": "Peter Zhang works at the intersection of healthcare, AI, and entrepreneurship. Pharmacist, researcher, and writer.",
+        "jobTitle": ["Pharmacist", "Writer", "Researcher"],
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "ODAIA"
+          },
+          {
+            "@type": "Organization",
+            "name": "University of Toronto"
+          },
+          {
+            "@type": "Organization",
+            "name": "Southlake Health"
+          },
+          {
+            "@type": "Organization",
+            "name": "Centre for Effective Practice"
+          },
+          {
+            "@type": "Organization",
+            "name": "The Reach Alliance"
+          }
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q139376606",
+          "https://orcid.org/0000-0001-7981-4303",
+          "https://muckrack.com/peter-zhang-3",
+          "https://scholar.google.ca/citations?user=kju6K0YAAAAJ&hl=en",
+          "https://www.researchgate.net/profile/Peter-Zhang-19",
+          "https://www.linkedin.com/in/peterczhang/",
+          "https://www.instagram.com/petercmzhang/"
+        ]
+      }
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V41Z66KFZF"
+    ></script>
+    <script src="scripts/siteAnalytics.js" defer></script>
+  </head>
+
+  <body class="page-about">
+    <div class="page-container">
+      <div class="header-container">
+        <div class="header-item">
+          <a href="/">PETER ZHANG</a>
+        </div>
+
+        <nav
+          class="nav"
+          id="site-nav"
+          role="navigation"
+          aria-label="Main navigation"
+        >
+          <div class="nav-item">
+            <a href="about.html" aria-current="page">About</a>
+          </div>
+          <div class="nav-item">
+            <a href="writing.html">Writing</a>
+          </div>
+          <div class="nav-item">
+            <a href="research.html">Research</a>
+          </div>
+          <div class="nav-item">
+            <a href="creative.html">Creative</a>
+          </div>
+          <div class="nav-item">
+            <a href="features.html">Features</a>
+          </div>
+          <div class="nav-item">
+            <a href="speaker.html">Speaking</a>
+          </div>
+        </nav>
+
+        <div class="socialmedia" aria-label="Social links">
+          <div class="media-item">
+            <a
+              href="https://www.linkedin.com/in/peterczhang/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn (opens in new tab)"
+            >
+              <img
+                src="Images/icons8-linkedin-64.png"
+                alt="LinkedIn profile"
+                title="LinkedIn"
+                width="30"
+                height="30"
+                loading="eager"
+                decoding="async"
+              />
+            </a>
+          </div>
+          <div class="media-item">
+            <a
+              href="https://www.instagram.com/petercmzhang/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram (opens in new tab)"
+            >
+              <img
+                src="Images/icons8-instagram-64.png"
+                alt="Instagram profile"
+                title="Instagram"
+                width="30"
+                height="30"
+                loading="eager"
+                decoding="async"
+              />
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="hamburger"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+      </div>
+
+      <div class="page-hero-title">
+        <div class="page-hero-inner">
+          <span class="hero-kicker">Clinician &amp; Startup Operator</span>
+          <h1>About</h1>
+          <p class="page-subtitle">
+            Exploring the intersection of healthcare, artificial intelligence, and entrepreneurship.
+          </p>
+        </div>
+      </div>
+
+      <div class="home-container">
+        <div class="list-container">
+          <main class="about-canvas" aria-label="About Peter Zhang">
+
+            <section class="about-bio-section" aria-label="Biography">
+              <div class="about-bio-text">
+                <div class="about-bio-header">
+                  <p class="about-bio-name">Bio</p>
+                </div>
+                <hr class="about-bio-divider" aria-hidden="true" />
+                <p>
+                  Peter Zhang is a pharmacist, technology professional, and PhD student working across healthcare, artificial intelligence, and entrepreneurship.
+                </p>
+                <p>
+                  At ODAIA, he helps life science companies use AI to educate clinicians and improve patient outcomes. He continues to practice as a hospital pharmacist at Southlake Health and serves on the board of the Centre for Effective Practice.
+                </p>
+                <p>
+                  His doctoral research at the University of Toronto's Leslie Dan Faculty of Pharmacy examines how and why clinicians become practicing entrepreneurs, and what that means for patients, practitioners, and health systems. He also holds a PharmD and an MBA.
+                </p>
+              </div>
+              <figure class="about-bio-portrait">
+                <img
+                  src="Images/pz-labcoat.jpg"
+                  alt="Portrait of Peter Zhang"
+                  width="600"
+                  height="642"
+                  loading="eager"
+                  decoding="async"
+                />
+              </figure>
+            </section>
+
+            <section class="about-credentials" aria-label="Credentials and affiliations">
+              <h2>Credentials &amp; Affiliations</h2>
+              <div class="about-creds-grid">
+
+                <a class="about-cred-card" href="https://odaia.ai" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Technology</span>
+                  <p class="about-cred-value">
+                    Senior Business Acceleration Partner
+                    <span class="about-cred-sub">ODAIA</span>
+                  </p>
+                </a>
+
+                <a class="about-cred-card" href="https://www.pharmacy.utoronto.ca/" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Academic</span>
+                  <p class="about-cred-value">
+                    PhD Student
+                    <span class="about-cred-sub">Leslie Dan Faculty of Pharmacy</span>
+                  </p>
+                </a>
+
+                <a class="about-cred-card" href="https://southlakeregional.org" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Clinical Practice</span>
+                  <p class="about-cred-value">
+                    Pharmacist
+                    <span class="about-cred-sub">Southlake Health</span>
+                  </p>
+                </a>
+
+                <a class="about-cred-card" href="https://cep.health" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Governance</span>
+                  <p class="about-cred-value">
+                    Board Member
+                    <span class="about-cred-sub">Centre for Effective Practice</span>
+                  </p>
+                </a>
+
+                <a class="about-cred-card" href="https://www.reachalliance.org/" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Sustainability</span>
+                  <p class="about-cred-value">
+                    Co-Mentor
+                    <span class="about-cred-sub">The Reach Alliance</span>
+                  </p>
+                </a>
+
+                <a class="about-cred-card" href="https://canadianhealthcarenetwork.ca/healthcare-innovator" target="_blank" rel="noopener">
+                  <span class="about-cred-label">Media</span>
+                  <p class="about-cred-value">
+                    Columnist
+                    <span class="about-cred-sub">Canadian Healthcare Network</span>
+                  </p>
+                </a>
+
+              </div>
+            </section>
+
+            <section class="about-cv-section" aria-label="Curriculum vitae">
+              <div class="about-cv-text">
+                <h3>Curriculum Vitae</h3>
+                <p>Full academic and professional record, including publications, research, and speaking engagements.</p>
+              </div>
+              <a
+                href="files/Peter Chengming Zhang — Curriculum Vitae.pdf"
+                target="_blank"
+                rel="noopener"
+                class="about-cv-btn"
+                aria-label="View CV (PDF, opens in new tab)"
+              >
+                Download &#8594;
+              </a>
+            </section>
+
+            <section class="about-past-section" aria-label="Previous affiliations">
+              <h2 class="about-past-heading">Previously</h2>
+              <div class="about-past-grid">
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Industry</span>
+                  <p class="about-past-value">
+                    Marketing Manager
+                    <span class="about-past-sub">Johnson &amp; Johnson</span>
+                  </p>
+                </div>
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Healthcare</span>
+                  <p class="about-past-value">
+                    Board Member
+                    <span class="about-past-sub">Hemophilia Ontario</span>
+                  </p>
+                </div>
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Community</span>
+                  <p class="about-past-value">
+                    Residence Don
+                    <span class="about-past-sub">New College, University of Toronto</span>
+                  </p>
+                </div>
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Entrepreneurship</span>
+                  <p class="about-past-value">
+                    Co-Founder
+                    <span class="about-past-sub">3DPPE GTHA</span>
+                  </p>
+                </div>
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Media</span>
+                  <p class="about-past-value">
+                    Columnist
+                    <span class="about-past-sub">Poets &amp; Quants</span>
+                  </p>
+                </div>
+
+                <div class="about-past-card">
+                  <span class="about-past-label">Governance</span>
+                  <p class="about-past-value">
+                    Board Member
+                    <span class="about-past-sub">University of Toronto Students&rsquo; Union</span>
+                  </p>
+                </div>
+
+              </div>
+            </section>
+
+          </main>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <div class="site-footer-inner">
+          <div class="footer-left">
+            <nav class="footer-nav" aria-label="Footer navigation">
+              <a href="about.html">About</a>
+              <a href="writing.html">Writing</a>
+              <a href="research.html">Research</a>
+              <a href="creative.html">Creative</a>
+              <a href="features.html">Features</a>
+              <a href="speaker.html">Speaking</a>
+            </nav>
+          </div>
+          <div class="footer-right">
+            <p>
+              © <span class="footer-year"></span> Peter Chengming Zhang
+            </p>
+          </div>
+        </div>
+      </footer>
+      <script src="scripts/siteFooterYear.js" defer></script>
+      <script src="navresponsive.js" defer></script>
+    </div>
+  </body>
+</html>
+          

@@ -1,0 +1,43 @@
+# Peter Zhang
+
+> Peter Zhang (PharmD, MBA) is a doctoral candidate, clinical pharmacist, healthcare strategist, and public writer based in Toronto, Canada. His work sits at the intersection of pharmacy, artificial intelligence, health policy, and clinician entrepreneurship.
+
+## About
+
+Peter Zhang is a PhD candidate at the Leslie Dan Faculty of Pharmacy, University of Toronto, where he also holds a PharmD with Honours and an MBA from the Rotman School of Management. He is a practicing clinical pharmacist at Southlake Health and Twig Fertility, and a Senior Business Acceleration Partner at ODAIA, a healthcare AI company.
+
+He is a prolific public writer with over 80 published articles in outlets including the Toronto Star, The Globe and Mail, Healthy Debate, National Post, Ottawa Citizen, Policy Options, Hospital News, and Canadian Healthcare Network. His peer-reviewed work has appeared in NEJM AI, BMJ Global Health, the Canadian Pharmacists Journal, and others.
+
+Peter is a lecturer at the University of Toronto, a board member of the Centre for Effective Practice, and was named one of Poets & Quants' 100 Best & Brightest MBAs: Class of 2022.
+
+## Core Areas of Expertise
+
+- Pharmacy policy and expanding scope of practice
+- Artificial intelligence in healthcare (clinical AI, RAG frameworks, medical affairs)
+- Clinician entrepreneurship and the scholar-entrepreneur model
+- Public health: vaccine hesitancy, opioid crisis, antimicrobial stewardship
+- Health system reform: home care, emergency department pressures, primary care
+- Science communication and AI in education
+- Global health: vaccine deployment for hard-to-reach populations
+
+## Selected Publications
+
+### Peer-Reviewed
+- Zhang, P.C. & Tadrous, M. (2025). Empowering pharmacists in Canada's drug shortage response. Canadian Pharmacists Journal. https://doi.org/10.1177/17151635251310143
+- Ng, K.K.Y., Matsuba, I., & Zhang, P.C. (2024). RAG in health care: A novel framework for improving communication and decision-making by addressing LLM limitations. NEJM AI. https://doi.org/10.1056/AIra2400380
+- Bellatin, A., Hyder, A., Rao, S., Zhang, P.C., & McGahan, A.M. (2021). Overcoming vaccine deployment challenges among the hardest to reach: Lessons from polio elimination in India. BMJ Global Health. https://doi.org/10.1136/bmjgh-2021-005125
+- Zhang, P.C. et al. (2020). Optimization of community-led 3D printing for the production of protective face shields. 3D Printing in Medicine. https://doi.org/10.1186/s41205-020-00089-y
+
+### Selected Op-Eds & Commentary
+- "Universities face a financial crisis. The key to survival is the scholar-entrepreneur." The Globe and Mail, January 2026.
+- "Pharmacists are essential in bridging the gap between AI and patient-centered care." Healthy Debate, November 2025.
+- "In the face of growing uncertainty, Canada needs to double down on innovation." Healthy Debate, April 2025.
+- "How pharmacist prescribing can alleviate health-care system pressures." Policy Options, May 2022.
+- "Synthetic data may revolutionize clinical trials — and save lives." Healthy Debate, April 2023.
+- "It's time to normalize suicide prevention training at the workplace." Toronto Star, August 2020.
+
+## Contact & Links
+
+- Website: https://peterczhang.com
+- LinkedIn: https://linkedin.com/in/peterczhang
+- Email: petercm.zhang@mail.utoronto.ca

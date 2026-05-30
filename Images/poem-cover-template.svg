@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1066" viewBox="0 0 1600 1066">
+  <!--
+  ================================================================
+  POEM COVER TEMPLATE — peterczhang.com
+  ================================================================
+  HOW TO USE:
+    1. Replace LINE_ONE and LINE_TWO with 1–2 lines from the poem
+       (hint at the poem, don't give it away)
+    2. Replace ANCHOR_WORD with the single most vivid noun/image
+    3. Adjust font-size on the anchor word based on word length:
+         Short word  (3–5 chars):  200–220px
+         Medium word (6–9 chars):  160–180px  ← "Watermelon" uses 160
+         Long word   (10–14 chars): 110–130px
+    4. Save as Images/[poem-slug].svg
+    5. Reference in creativeArticles.js as image: "Images/[poem-slug].svg"
+
+  LEAVE UNCHANGED:
+    - Canvas size (1600 × 1066)
+    - Background color (#000)
+    - Font family (Libre Baskerville, Georgia, serif)
+    - Text color (#fff)
+    - text-anchor (middle) and x (50%)
+    - Letter spacing (0.6–0.8)
+    - Vertical positions (34% / 50% / 72%)
+  ================================================================
+  -->
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000" />
+
+  <!-- EDIT: 1–2 setup lines from the poem (font-size 56, weight 400) -->
+  <!-- If you only need ONE line, delete the second <tspan> and move the first to y="42%" -->
+  <text x="50%" fill="#fff" font-family="'Libre Baskerville', Georgia, serif" text-anchor="middle">
+    <tspan x="50%" y="34%" font-size="56" font-weight="400" letter-spacing="0.6">LINE_ONE</tspan>
+    <tspan x="50%" y="50%" font-size="56" font-weight="400" letter-spacing="0.6">LINE_TWO</tspan>
+  </text>
+
+  <!-- EDIT: anchor word — the central image of the poem (weight 700) -->
+  <!-- Adjust font-size to fit: short=200, medium=160, long=120 -->
+  <text x="50%" y="72%" fill="#fff" font-family="'Libre Baskerville', Georgia, serif" text-anchor="middle" font-size="160" font-weight="700" letter-spacing="0.8">ANCHOR_WORD</text>
+
+</svg>
