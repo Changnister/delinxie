@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact — Delin Xie</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/WebCSS.css" />
+    <link rel="icon" type="image/png" sizes="64x64" href="Images/favicon-64.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Inquire about consulting, speaking engagements, or other opportunities with Delin Xie."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Delin Xie" />
+    <link rel="canonical" href="https://[YOUR-DOMAIN]/contact.html" />
+  </head>
+
+  <body class="page-contact">
+    <div class="page-container">
+
+      <!-- NAV START -->
+      <header class="site-header">
+        <div class="site-header-inner">
+          <a class="wordmark" href="index-en.html">Delin Xie</a>
+
+          <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
+            <a href="about-en.html">About</a>
+            <a href="consulting-en.html">Consulting</a>
+            <a href="speaking-en.html">Speaking</a>
+            <a href="writing-en.html">Writing</a>
+            <a href="contact-en.html" aria-current="page">Contact</a>
+          </nav>
+
+          <div class="nav-social" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/[LINKEDIN-HANDLE]/" target="_blank" rel="noopener" aria-label="LinkedIn (opens in new tab)">
+              <img src="Images/linkedin-monochrome.svg" alt="LinkedIn" width="22" height="22" />
+            </a>
+          </div>
+
+
+          <div class="lang-switcher" aria-label="Language">
+            <a href="contact-en.html" class="active">EN</a>
+            <span class="lang-pipe" aria-hidden="true">|</span>
+            <a href="contact.html">中文</a>
+          </div>
+
+          <button class="hamburger" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </header>
+      <!-- NAV END -->
+
+      <div class="page-hero">
+        <div class="page-hero-inner">
+          <span class="kicker" style="color: rgba(200,165,91,0.8);">Get in touch</span>
+          <h1>Contact</h1>
+          <p class="page-subtitle">
+            I look forward to hearing from you. Please share a brief description of your situation and what you're hoping to achieve — I'll follow up personally.
+          </p>
+        </div>
+      </div>
+
+      <main class="contact-canvas" aria-label="Contact form">
+        <div class="contact-inner">
+
+          <div class="contact-intro">
+            <span class="kicker">Reach out</span>
+            <div class="accent-rule"></div>
+            <h2>Send an inquiry</h2>
+            <p>
+              Whether you're exploring a consulting engagement, planning a speaking event, or have a question about my work, I'd welcome a note. All messages are read personally.
+            </p>
+          </div>
+
+          <!--
+            TO WIRE UP THIS FORM:
+            Option A — Netlify Forms: add data-netlify="true" to <form> and set action="/thank-you"
+            Option B — Formspree: set action="https://formspree.io/f/[YOUR-FORM-ID]" method="POST"
+          -->
+          <form
+            class="contact-form"
+            action="[YOUR FORM ACTION URL]"
+            method="POST"
+            name="contact"
+            aria-label="Contact inquiry form"
+          >
+            <!-- Hidden field for Netlify Forms (remove if using Formspree) -->
+            <input type="hidden" name="form-name" value="contact" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  placeholder="Your full name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="organisation">Organisation</label>
+                <input
+                  type="text"
+                  id="organisation"
+                  name="organisation"
+                  autocomplete="organization"
+                  placeholder="Company or institution"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email address <span aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="inquiry-type">Nature of inquiry</label>
+                <select id="inquiry-type" name="inquiry-type">
+                  <option value="">Please select</option>
+                  <option value="consulting">Consulting engagement</option>
+                  <option value="speaking">Speaking / event booking</option>
+                  <option value="media">Media or press</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Approximate budget range (optional)</label>
+              <select id="budget" name="budget">
+                <option value="">Prefer not to say</option>
+                <option value="under-10k">Under $10,000</option>
+                <option value="10k-25k">$10,000 – $25,000</option>
+                <option value="25k-50k">$25,000 – $50,000</option>
+                <option value="50k-plus">$50,000+</option>
+              </select>
+              <p class="form-note">This helps me understand the scope and ensure we're a good fit before responding.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Please briefly describe your situation, what you're hoping to achieve, and any relevant timelines."
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-primary">Send inquiry &rarr;</button>
+            </div>
+
+          </form>
+
+          <!-- Direct contact alternative -->
+          <div style="margin-top:48px; padding-top:40px; border-top:1px solid var(--color-border);">
+            <span class="kicker">Direct contact</span>
+            <div class="accent-rule"></div>
+            <p style="color:var(--color-text-muted); font-size:0.97rem; margin-top:4px;">
+              Prefer to write directly? Reach me at
+              <a href="mailto:[YOUR-EMAIL@DOMAIN.COM]" style="color:var(--color-primary); font-weight:600;">[YOUR-EMAIL@DOMAIN.COM]</a>.
+              I aim to respond within two business days.
+            </p>
+            <p style="color:var(--color-text-muted); font-size:0.97rem; margin-top:12px;">
+              You can also connect on
+              <a href="https://www.linkedin.com/in/[LINKEDIN-HANDLE]/" target="_blank" rel="noopener" style="color:var(--color-primary); font-weight:600;">LinkedIn</a>.
+            </p>
+          </div>
+
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer-inner">
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="about-en.html">About</a>
+            <a href="consulting-en.html">Consulting</a>
+            <a href="speaking-en.html">Speaking</a>
+            <a href="writing-en.html">Writing</a>
+            <a href="contact-en.html" aria-current="page">Contact</a>
+          </nav>
+          <div class="footer-right">
+            <p>&copy; <span class="footer-year"></span> Delin Xie</p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="navresponsive.js" defer></script>
+      <script src="scripts/siteFooterYear.js" defer></script>
+    </div>
+  </body>
+</html>

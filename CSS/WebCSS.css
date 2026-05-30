@@ -1383,4 +1383,98 @@ p { font-size: 1rem; line-height: 1.78; }
   /* Footer */
   .site-footer-inner { flex-direction: column; align-items: flex-start; gap: 16px; }
   .footer-nav { gap: 16px 24px; }
+
+  /* Language switcher */
+  .lang-switcher { margin-left: auto; }
+}
+
+/* ----------------------------------------------------------
+   21. Language switcher
+   ---------------------------------------------------------- */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+.lang-switcher a {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding: 2px 0;
+  transition: color var(--ease);
+  text-decoration: none;
+}
+.lang-switcher a:hover,
+.lang-switcher a.active { color: var(--navy); }
+.lang-switcher .lang-pipe {
+  font-size: 0.65rem;
+  color: var(--border-dark);
+  user-select: none;
+}
+
+/* ----------------------------------------------------------
+   22. Chinese typography  (body.lang-zh)
+   ---------------------------------------------------------- */
+
+/* Chinese serif for headings when zh font is loaded */
+body.lang-zh h1,
+body.lang-zh h2,
+body.lang-zh h3,
+body.lang-zh h4,
+body.lang-zh .hero-name,
+body.lang-zh .pull-quote {
+  font-family: 'Noto Serif SC', 'STSong', 'SimSun', 'Songti SC', serif;
+  letter-spacing: 0.02em;   /* Chinese characters read better with slight spacing */
+}
+
+/* Chinese body text — system fonts, generous line-height */
+body.lang-zh,
+body.lang-zh p,
+body.lang-zh li,
+body.lang-zh label,
+body.lang-zh .faq-a,
+body.lang-zh .abstract-card p,
+body.lang-zh .service-card p,
+body.lang-zh .topic-card p,
+body.lang-zh .lane-main p {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  line-height: 1.95;
+}
+
+/* Keep the wordmark in Lora regardless of language */
+body.lang-zh .wordmark {
+  font-family: var(--serif);
+  letter-spacing: 0.08em;
+}
+
+/* Kicker — less letter-spacing for Chinese */
+body.lang-zh .kicker,
+body.lang-zh .trust-label,
+body.lang-zh .footer-nav a,
+body.lang-zh .abstract-tag,
+body.lang-zh .article-tag,
+body.lang-zh .service-num,
+body.lang-zh .lane-num,
+body.lang-zh .step-num,
+body.lang-zh .topic-num,
+body.lang-zh .cred-label,
+body.lang-zh .highlight-label {
+  letter-spacing: 0.06em;
+}
+
+/* Buttons in Chinese — slightly wider */
+body.lang-zh .btn {
+  letter-spacing: 0.04em;
+  padding-inline: 32px;
+}
+
+/* Nav links — no text-transform for Chinese */
+body.lang-zh .site-nav a,
+body.lang-zh .footer-nav a {
+  text-transform: none;
+  letter-spacing: 0.02em;
 }
